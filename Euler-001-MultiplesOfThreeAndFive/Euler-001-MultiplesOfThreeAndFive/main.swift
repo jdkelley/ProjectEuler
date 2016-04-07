@@ -27,11 +27,9 @@
  
  */
 
-var integerArray = [Int]()
-for i in 0 ..< 1000 {
-    integerArray.append(i)
+var total: Int = 0
+for number in 0 ..< 1000 where number % 3 == 0 || number % 5 == 0 {
+    total += number
 }
-let multiples = integerArray.map() { ($0 % 3 == 0 || $0 % 5 == 0) ? $0 : 0 }
-let sum = multiples.reduce(0) { $0 + $1 }
 
-print("total: \(sum)")
+print("total: \(total)")
