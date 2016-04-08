@@ -22,13 +22,11 @@
  
  * --------------------------------------------------
  
- Answer:
+ Answer: 6857
  
  */
 
 let number = 600851475143
-//let number = 13195
-
 var factors = [Int]()
 
 let primeFactors = [Int]()
