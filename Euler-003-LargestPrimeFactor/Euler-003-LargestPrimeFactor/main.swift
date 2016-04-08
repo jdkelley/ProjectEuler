@@ -26,7 +26,19 @@
  
  */
 
-let number = 600851475143
+print(" * ----------------------------------- * ")
+print(" * Please enter the number you wish to * ")
+print(" * find the largest prime of           * ")
+print(" * ----------------------------------- * ")
+let number: Int
+if let input = readLine(stripNewline: true) {
+    number = Int(input) ?? 600851475143
+} else {
+    number = 17
+    print("error")
+}
+
+//let number = 600851475143
 var factors = [Int]()
 
 let primeFactors = [Int]()
@@ -39,35 +51,10 @@ while i < (number / stopper) {
         stopper = i
         currentNumber = currentNumber / i
         factors.append(i)
-        //factors.append(currentNumber)
         print("\(factors)")
     }
-    i += 1//(factors.count < 2) ? 1 : factors[factors.count - 2]
+    i += 1
 }
-print(factors)
-
-//let number = 13195
-//
-//var factors = [1,number]
-//
-//let primeFactors = [Int]()
-//var currentNumber = number
-//
-//for i in 2...(number / 3){
-//    
-//    if currentNumber % i == 0 {
-//        currentNumber = currentNumber / i
-//        factors.append(i)
-//    }
-//    
-//}
-//
-//func isAPrime(number: Int) -> Bool {
-//    
-//}
-
-// Best so far 453
-
-
-// 17
-// 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+if let final = factors.last {
+    print("Largest Prime of \(number) is \(final)")
+}
