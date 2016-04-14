@@ -26,3 +26,14 @@
  Answer: ??
  
  */
+let a = 1001
+let b = 1002
+let stringNumber = "\(a)"
+
+/**
+if substring1 == substring2.reverse() {
+    return ISPALENDROME
+ }
+ 
+ 
+ */
