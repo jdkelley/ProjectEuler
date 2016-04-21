@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961DBEB81CC917290067D4AC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEB71CC917290067D4AC /* main.swift */; };
+		961DBEC21CC919CC0067D4AC /* Euler-001-MultiplesOfThreeAndFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEC11CC919CC0067D4AC /* Euler-001-MultiplesOfThreeAndFive.swift */; };
+		961DBEC41CC919FC0067D4AC /* Euler-002-EvenFibonacciNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEC31CC919FC0067D4AC /* Euler-002-EvenFibonacciNumbers.swift */; };
+		961DBEC61CC91AB90067D4AC /* Euler-003-LargestPrimeFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEC51CC91AB90067D4AC /* Euler-003-LargestPrimeFactor.swift */; };
+		961DBEC81CC91C370067D4AC /* Euler-004-LargestPalindromeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEC71CC91C370067D4AC /* Euler-004-LargestPalindromeProduct.swift */; };
+		961DBECA1CC91CCB0067D4AC /* Euler-005-SmallestMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEC91CC91CCB0067D4AC /* Euler-005-SmallestMultiple.swift */; };
+		961DBECC1CC91D370067D4AC /* template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBECB1CC91D370067D4AC /* template.swift */; };
+		961DBEED1CC920D20067D4AC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961DBEEC1CC920D20067D4AC /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		961DBEB21CC917290067D4AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		961DBEB41CC917290067D4AC /* EulerProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EulerProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		961DBEB71CC917290067D4AC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		961DBEC11CC919CC0067D4AC /* Euler-001-MultiplesOfThreeAndFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Euler-001-MultiplesOfThreeAndFive.swift"; sourceTree = "<group>"; };
+		961DBEC31CC919FC0067D4AC /* Euler-002-EvenFibonacciNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Euler-002-EvenFibonacciNumbers.swift"; sourceTree = "<group>"; };
+		961DBEC51CC91AB90067D4AC /* Euler-003-LargestPrimeFactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Euler-003-LargestPrimeFactor.swift"; sourceTree = "<group>"; };
+		961DBEC71CC91C370067D4AC /* Euler-004-LargestPalindromeProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Euler-004-LargestPalindromeProduct.swift"; sourceTree = "<group>"; };
+		961DBEC91CC91CCB0067D4AC /* Euler-005-SmallestMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Euler-005-SmallestMultiple.swift"; sourceTree = "<group>"; };
+		961DBECB1CC91D370067D4AC /* template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = template.swift; sourceTree = "<group>"; };
+		961DBEEC1CC920D20067D4AC /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961DBEB11CC917290067D4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961DBEAB1CC917290067D4AC = {
+			isa = PBXGroup;
+			children = (
+				961DBEB61CC917290067D4AC /* EulerProject */,
+				961DBEB51CC917290067D4AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		961DBEB51CC917290067D4AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961DBEB41CC917290067D4AC /* EulerProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961DBEB61CC917290067D4AC /* EulerProject */ = {
+			isa = PBXGroup;
+			children = (
+				961DBEBE1CC918330067D4AC /* 1-20 */,
+				961DBEB71CC917290067D4AC /* main.swift */,
+				961DBEEC1CC920D20067D4AC /* Menu.swift */,
+			);
+			path = EulerProject;
+			sourceTree = "<group>";
+		};
+		961DBEBE1CC918330067D4AC /* 1-20 */ = {
+			isa = PBXGroup;
+			children = (
+				961DBEC11CC919CC0067D4AC /* Euler-001-MultiplesOfThreeAndFive.swift */,
+				961DBEC31CC919FC0067D4AC /* Euler-002-EvenFibonacciNumbers.swift */,
+				961DBEC51CC91AB90067D4AC /* Euler-003-LargestPrimeFactor.swift */,
+				961DBEC71CC91C370067D4AC /* Euler-004-LargestPalindromeProduct.swift */,
+				961DBEC91CC91CCB0067D4AC /* Euler-005-SmallestMultiple.swift */,
+				961DBECB1CC91D370067D4AC /* template.swift */,
+			);
+			name = "1-20";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961DBEB31CC917290067D4AC /* EulerProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961DBEBB1CC917290067D4AC /* Build configuration list for PBXNativeTarget "EulerProject" */;
+			buildPhases = (
+				961DBEB01CC917290067D4AC /* Sources */,
+				961DBEB11CC917290067D4AC /* Frameworks */,
+				961DBEB21CC917290067D4AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EulerProject;
+			productName = EulerProject;
+			productReference = 961DBEB41CC917290067D4AC /* EulerProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961DBEAC1CC917290067D4AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joshua Kelley";
+				TargetAttributes = {
+					961DBEB31CC917290067D4AC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 961DBEAF1CC917290067D4AC /* Build configuration list for PBXProject "EulerProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 961DBEAB1CC917290067D4AC;
+			productRefGroup = 961DBEB51CC917290067D4AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961DBEB31CC917290067D4AC /* EulerProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961DBEB01CC917290067D4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961DBEB81CC917290067D4AC /* main.swift in Sources */,
+				961DBEC81CC91C370067D4AC /* Euler-004-LargestPalindromeProduct.swift in Sources */,
+				961DBEED1CC920D20067D4AC /* Menu.swift in Sources */,
+				961DBEC61CC91AB90067D4AC /* Euler-003-LargestPrimeFactor.swift in Sources */,
+				961DBEC41CC919FC0067D4AC /* Euler-002-EvenFibonacciNumbers.swift in Sources */,
+				961DBECA1CC91CCB0067D4AC /* Euler-005-SmallestMultiple.swift in Sources */,
+				961DBEC21CC919CC0067D4AC /* Euler-001-MultiplesOfThreeAndFive.swift in Sources */,
+				961DBECC1CC91D370067D4AC /* template.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		961DBEB91CC917290067D4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		961DBEBA1CC917290067D4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		961DBEBC1CC917290067D4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		961DBEBD1CC917290067D4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961DBEAF1CC917290067D4AC /* Build configuration list for PBXProject "EulerProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961DBEB91CC917290067D4AC /* Debug */,
+				961DBEBA1CC917290067D4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961DBEBB1CC917290067D4AC /* Build configuration list for PBXNativeTarget "EulerProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961DBEBC1CC917290067D4AC /* Debug */,
+				961DBEBD1CC917290067D4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961DBEAC1CC917290067D4AC /* Project object */;
+}
