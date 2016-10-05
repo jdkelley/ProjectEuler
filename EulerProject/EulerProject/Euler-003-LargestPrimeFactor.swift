@@ -36,7 +36,7 @@ struct E003_LargestPrimeFactor {
     func run() {
         
         let number: Int
-        if let input = readLine(stripNewline: true) {
+        if let input = readLine(strippingNewline: true) {
             number = Int(input) ?? 600851475143
         } else {
             number = 17
